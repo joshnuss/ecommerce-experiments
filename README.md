@@ -1,6 +1,6 @@
 # Experiments
 
-## Sockets (Cart, Product updates)
+## Web Sockets
 
 - Cart data would not need to be constantly fetched with each request and can be synced across browsers
 - Stock levels and product availability changes can be pushed to the browser, and many types of product data can be cached in client side storage. Imagine a product just sold out, everyone viewing the product is notified. Customers with the product in their cart are notified. Customers can also be notified when an item in their cart is about to sell out (i.e Hurry! XYZ item is about to sell out.)
