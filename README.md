@@ -1,5 +1,11 @@
 # Experiments
 
+## RethinkDB
+
+- Use RethinkDB as backend store
+  - NoSQL provides easy to customize models (e.g. easily add attributes to Product model)
+  - Changefeeds will provide realtime interactions with the browser
+
 ## Web Sockets
 
 - Cart data would not need to be constantly fetched with each request and can be synced across browsers
