@@ -11,6 +11,7 @@ defmodule LiveCart do
       supervisor(LiveCart.Endpoint, []),
       # Here you could define other workers and supervisors as children
       # worker(LiveCart.Worker, [arg1, arg2, arg3]),
+      worker(RethinkDB.Connection, [[name: LiveCart.Database]])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
