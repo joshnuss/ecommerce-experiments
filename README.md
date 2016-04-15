@@ -32,6 +32,6 @@
 - UI that works with 3D TVs and 3D headsets
 
 ## Push-Pull Abstraction
-  
+
 - Push: sockets, webhooks, emails
 - Pull: api
