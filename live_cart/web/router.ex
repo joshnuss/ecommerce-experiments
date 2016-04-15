@@ -19,6 +19,12 @@ defmodule LiveCart.Router do
     get "/", PageController, :index
   end
 
+  scope "/api", LiveCart do
+    pipe_through :api
+
+    resources "/products", ProductsController, only: [:index, :show]
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", LiveCart do
   #   pipe_through :api
