@@ -17,7 +17,7 @@ defmodule LiveCart.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {LiveCart, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext, :tzdata]]
   end
 
   # Specifies which paths to compile per environment.
@@ -33,6 +33,7 @@ defmodule LiveCart.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
      {:rethinkdb, "~> 0.4"},
+     {:timex, "~> 2.1"},
      {:cowboy, "~> 1.0"}]
   end
 end
