@@ -27,6 +27,10 @@
       post-checkout: Update various subsystems in parallel
 - Product page: No need to load cart data (use push instead of pull), load product data in parallel with stock lookup, would get a 300% boost in response time.
 
+## Geo Location
+
+- Determine shipping rates and tax rates using lat/long conversion
+
 ## 3D UI
 
 - UI that works with 3D TVs and 3D headsets
